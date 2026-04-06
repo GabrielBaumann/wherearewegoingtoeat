@@ -15,33 +15,149 @@
 </head>
 <body>
     <section id="start" class="h-screen grid grid-rows-5">
-        <div class="bg-pink-300 flex items-center justify-center row-span-2 bg-gradient-to-b overflow-hidden relative p-6">
-            <header class="flex flex-col">
-                <div class="max-h-[70%] overflow-hidden">
-                    <img src="./undraw_different-love_58hd-removebg-preview.png" alt="" srcset="" class="h-full w-full object-cover object-center">
-                </div>
+        <div class="flex flex-col bg-pink-300 row-span-2 bg-gradient-to-b overflow-hidden relative p-6">
+            <header class="">
+                <h1 class="font-bold text-black font-bold">HeyPretty.</h1>
             </header>
+            <div class="overflow-hidden flex items-center justify-center">
+                <img src="./undraw_different-love_58hd-removebg-preview.png" alt="" srcset="" class="h-[95%] object-cover object-center">
+            </div>
         </div>
-        <div class="row-span-3 p-6">
-            <div class="flex flex-col gap-6 justify-between h-full">
-                <div class="flex flex-col gap-6">
-                    <h1 class="text-3xl font-semibold text-center">Vamos decidir o que vamos fazer?</h1>
-                    <h3 class="text-gray-600 text-center">Preencha esse formulário rápido para descobrirmos a melhor atividade pra fazermos juntos</h3>
-                </div>
-                <div class="flex flex-col gap-7 items-center justify-between">
-                    <a href="" class="cursor-pointer font-semibold bg-pink-300 py-3 w-full flex items-center justify-center text-center rounded-full border-t border-l border-r-4 border-b-4 shadow-xl max-w-2xl">
-                        <span>Começar</span>
-                    </a>
-                    <div class="flex w-full justify-between">
-                        <img src="./swirly-scribbled-arrow.png" alt="" srcset="" class="size-20">
-                        <img src="./fireworks.gif" alt="" srcset="" class="size-25">
-                    </div>
+        <div class="row-span-3 p-6 flex flex-col gap-6 justify-between">
+            <div class="flex flex-col gap-6">
+                <h1 class="text-3xl font-semibold text-center">Vamos decidir o que vamos fazer?</h1>
+                <h3 class="text-gray-600 text-center">Preencha esse formulário rápido para descobrirmos a melhor atividade pra fazermos juntos</h3>
+            </div>
+            <div class="flex flex-col gap-7 items-center justify-between">
+                <a href="" class="cursor-pointer font-semibold bg-pink-300 py-3 w-full flex items-center justify-center text-center rounded-full border-t border-l border-r-4 border-b-4 shadow-xl max-w-2xl">
+                    <span>Começar</span>
+                </a>
+                <div class="flex w-full justify-between">
+                    <img src="./swirly-scribbled-arrow.png" alt="" srcset="" class="size-20">
+                    <img src="./fireworks.gif" alt="" srcset="" class="size-25">
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="first">
+    <section id="first" class="h-screen min-h-screeen max-h-full p-6 bg-gradient-to-b from-pink-200 via-pink-200 to-pink-100 flex flex-col justify-between">
+        <div class="flex flex-col gap-6">
+            <header class="flex items-center justify-between">
+                <a href="" class="text-gray-800 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                    </svg>
+                    <span>Voltar</span>
+                </a>
+            </header>
+            <div class="flex flex-col">
+                <span class="text-gray-700 text-center">Primeira pergunta</span>
+                <h1 class="text-3xl text-black font-semibold text-center">O que mais te alegraria hoje?</h1>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="p-2 bg-white rounded-xl flex flex-col justify-center items-center text-center gap-2 shadow-xl border-b-4 border-r-4 border-l border-t">
+                    <div class="overflow-hidden h-[60%]">
+                        <img src="./undraw_special-event_hv54.png" alt="" class="h-full h-full object-center object-cover">
+                    </div>
+                    <span class="text-xl font-semibold text-gray-900">Comer algo</span>
+                </div>
+                <div class="p-2 bg-white rounded-xl flex flex-col justify-center items-center text-center gap-2 shadow-xl border-b-4 border-r-4 border-l border-t">
+                    <div class="overflow-hidden h-[60%]">
+                        <img src="./undraw_special-event_hv54.png" alt="" class="h-full h-full object-center object-cover">
+                    </div>
+                    <span class="text-xl font-semibold text-gray-900">Comer algo</span>
+                </div>
+                <div class="p-2 bg-white rounded-xl flex flex-col justify-center items-center text-center gap-2 shadow-xl border-b-4 border-r-4 border-l border-t">
+                    <div class="overflow-hidden h-[60%]">
+                        <img src="./undraw_special-event_hv54.png" alt="" class="h-full h-full object-center object-cover">
+                    </div>
+                    <span class="text-xl font-semibold text-gray-900">Comer algo</span>
+                </div>
+                <div class="p-2 bg-white rounded-xl flex flex-col justify-center items-center text-center gap-2 shadow-xl border-b-4 border-r-4 border-l border-t">
+                    <div class="overflow-hidden h-[60%]">
+                        <img src="./undraw_special-event_hv54.png" alt="" class="h-full h-full object-center object-cover">
+                    </div>
+                    <span class="text-xl font-semibold text-gray-900">Comer algo</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- quando uma opção nao estiver selecionada ele fica assim mas sem o hidden-->
+        <a href="" class="hidden bg-black text-white gap-2 py-3 w-full rounded-full text-center items-center flex justify-center opacity-[0.3]">
+            <span class="">Próxima pergunta</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+        </a>
+
+        <!-- quando uma opção estiver selecionada -->
+        <a href="" class="bg-black text-white gap-2 py-3 w-full rounded-full text-center items-center flex justify-center">
+            <span class="">Próxima pergunta</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+        </a>
+
+    </section>
+
+    <section id="second" class="h-screen min-h-screeen max-h-full p-6 flex flex-col justify-between">
+        <div class="flex flex-col gap-6">
+            <header class="flex items-center justify-between">
+                <a href="" class="text-gray-800 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                    </svg>
+                    <span>Voltar</span>
+                </a>
+            </header>
+            <div class="flex flex-col">
+                <span class="text-gray-700 text-center">Segunda pergunta</span>
+                <h1 class="text-3xl text-black font-semibold text-center">O que mais te alegraria hoje?</h1>
+            </div>
+           <div class="grid grid-cols-2 gap-4">
+                <div class="p-2 bg-white rounded-full flex items-center gap-2 border-2 border-gray-300 hover:border-gray-400 transition-colors">
+                    <div class="w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-semibold text-gray-700 shadow-inner">
+                        1
+                    </div>
+                    <span class="text-gray-700">Comer algo</span>
+                </div>
+                <div class="p-2 bg-white rounded-full flex items-center gap-2 border-2 border-gray-300 hover:border-gray-400 transition-colors">
+                    <div class="w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-semibold text-gray-700 shadow-inner">
+                        2
+                    </div>
+                    <span class="text-gray-700">Comer algo</span>
+                </div>
+                <div class="p-2 bg-white rounded-full flex items-center gap-2 border-2 border-gray-300 hover:border-gray-400 transition-colors">
+                    <div class="w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-semibold text-gray-700 shadow-inner">
+                        3
+                    </div>
+                    <span class="text-gray-700">Comer algo</span>
+                </div>
+                <div class="p-2 bg-white rounded-full flex items-center gap-2 border-2 border-gray-300 hover:border-gray-400 transition-colors">
+                    <div class="w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-semibold text-gray-700 shadow-inner">
+                        4
+                    </div>
+                    <span class="text-gray-700">Comer algo</span>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- quando uma opção nao estiver selecionada ele fica assim mas sem o hidden-->
+        <a href="" class="hidden bg-black text-white gap-2 py-3 w-full rounded-full text-center items-center flex justify-center opacity-[0.3]">
+            <span class="">Próxima pergunta</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+        </a>
+
+        <!-- quando uma opção estiver selecionada -->
+        <a href="" class="bg-black text-white gap-2 py-3 w-full rounded-full text-center items-center flex justify-center">
+            <span class="">Próxima pergunta</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+        </a>
 
     </section>
 </body>
