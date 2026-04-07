@@ -7,18 +7,13 @@
     <title>Quiz - Data to enrich your online business</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
         body {
             font-family: 'Poppins', sans-serif;
             height: 100vh;
-            overflow: hidden;
         }
-
         html {
             height: 100vh;
-            overflow: hidden;
         }
-
         /* Animações CSS personalizadas */
         @keyframes fadeInUp {
             from { opacity: 0; transform: translateY(40px); }
@@ -40,36 +35,30 @@
             from { opacity: 0; transform: translateY(-30px); }
             to { opacity: 1; transform: translateY(0); }
         }
-
         .anim-up { animation: fadeInUp 800ms ease-out forwards; }
         .anim-left { animation: fadeInLeft 800ms ease-out forwards; }
         .anim-right { animation: fadeInRight 800ms ease-out forwards; }
         .anim-scale { animation: scaleIn 700ms ease-out forwards; }
         .anim-down { animation: fadeInDown 700ms ease-out forwards; }
-
         .anim-element {
             opacity: 0;
         }
-
         /* Transição suave ao selecionar opção */
         .option {
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
-
         .option .icon-container {
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
     </style>
 </head>
 <body>
-
 <!-- LANDING PAGE -->
 <div id="landing-page" class="bg-white h-screen overflow-hidden">
   <div class="relative isolate px-6 pt-14 lg:px-8 h-full">
     <div aria-hidden="true" class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
       <div style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" class="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-red-200 to-red-500 opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75"></div>
     </div>
-
     <div class="flex flex-col md:flex-row items-center h-full">
         <div class="md:hidden overflow-hidden h-[15rem] flex items-center">
             <img src="./undraw_love_9mug-removebg-preview.png" alt="" class="anim-element anim-scale w-full h-full object-contain object-center">
@@ -88,18 +77,15 @@
             </div>
           </div>
         </div>
-
         <div class="hidden md:flex mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 flex-1 items-center justify-center">
             <img src="./undraw_love_9mug-removebg-preview.png" alt="" class="anim-element anim-scale w-4/5 h-auto object-contain">
         </div>
     </div>
-
     <div aria-hidden="true" class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
       <div style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" class="relative left-[calc(50%+3rem)] aspect-1155/678 w-144.5 -translate-x-1/2 bg-linear-to-tr from-red-500 to-red-500 opacity-30 sm:left-[calc(50%+36rem)] sm:w-288.75"></div>
     </div>
   </div>
 </div>
-
 <!-- QUESTION 1 -->
 <div id="question-1" class="hidden bg-white h-screen overflow-hidden flex flex-col">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex-1 flex flex-col">
@@ -109,17 +95,14 @@
         <div id="progress-1" class="h-2 bg-red-600 rounded-full transition-all duration-700" style="width: 20%;"></div>
       </div>
     </div>
-
     <div class="flex-1 flex flex-col justify-start mt-6 overflow-hidden">
       <div class="mx-auto max-w-2xl lg:text-center">
         <h2 class="anim-element anim-down text-base/7 font-semibold text-red-600">Primeira pergunta</h2>
         <p class="anim-element anim-up mt-2 text-3xl sm:text-4xl font-semibold tracking-tight text-pretty text-gray-900">Everything you need to deploy your app?</p>
       </div>
-
       <div class="md:hidden flex items-center justify-center overflow-hidden mt-4">
           <img src="./undraw_through-the-park_xcqx.png" alt="" class="anim-element anim-scale w-4/5 h-36 object-contain">
       </div>
-
       <div class="mt-4 max-w-2xl sm:mt-8 lg:mt-12 lg:max-w-4xl mx-auto w-full">
         <dl class="grid max-w-xl grid-cols-1 gap-x-6 gap-y-3 lg:max-w-none lg:grid-cols-2 lg:gap-y-10">
           <div class="option flex items-center gap-2 bg-red-100 border border-red-300 p-2 rounded-full cursor-pointer anim-element anim-left">
@@ -157,7 +140,6 @@
         </dl>
       </div>
     </div>
-
     <div class="pb-8 sm:pb-12 lg:pb-16 lg:max-w-4xl flex items-end gap-2 md:justify-end mx-auto w-full">
         <button id="next-btn-1" class="shadow-xl bg-red-500 rounded-full text-white py-3 px-8 w-full md:w-auto text-center flex items-center justify-center gap-2 font-semibold opacity-50 cursor-not-allowed pointer-events-none transition-all">
             <span>Próxima pergunta</span>
@@ -168,7 +150,6 @@
     </div>
   </div>
 </div>
-
 <!-- QUESTION 2 -->
 <div id="question-2" class="hidden bg-white h-screen overflow-hidden flex flex-col">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex-1 flex flex-col">
@@ -177,17 +158,14 @@
         <div id="progress-2" class="h-2 bg-red-600 rounded-full transition-all duration-700" style="width: 40%;"></div>
       </div>
     </div>
-
     <div class="flex-1 flex flex-col justify-start mt-6 overflow-hidden">
       <div class="mx-auto max-w-2xl lg:text-center">
         <h2 class="anim-element anim-down text-base/7 font-semibold text-red-600">Segunda pergunta</h2>
         <p class="anim-element anim-up mt-2 text-3xl sm:text-4xl font-semibold tracking-tight text-pretty text-gray-900">How do you scale your infrastructure?</p>
       </div>
-
       <div class="md:hidden flex items-center justify-center overflow-hidden mt-4">
           <img src="./undraw_through-the-park_xcqx.png" alt="" class="anim-element anim-scale w-4/5 h-36 object-contain">
       </div>
-
       <div class="mt-4 max-w-2xl sm:mt-8 lg:mt-12 lg:max-w-4xl mx-auto w-full">
         <dl class="grid max-w-xl grid-cols-1 gap-x-6 gap-y-3 lg:max-w-none lg:grid-cols-2 lg:gap-y-10">
           <div class="option flex items-center gap-2 bg-red-100 border border-red-300 p-2 rounded-full cursor-pointer anim-element anim-left">
@@ -225,7 +203,6 @@
         </dl>
       </div>
     </div>
-
     <div class="pb-8 sm:pb-12 lg:pb-16 lg:max-w-4xl flex items-end gap-2 md:justify-end mx-auto w-full">
         <button id="next-btn-2" class="shadow-xl bg-red-500 rounded-full text-white py-3 px-8 w-full md:w-auto text-center flex items-center justify-center gap-2 font-semibold opacity-50 cursor-not-allowed pointer-events-none transition-all">
             <span>Próxima pergunta</span>
@@ -236,7 +213,6 @@
     </div>
   </div>
 </div>
-
 <!-- QUESTION 3 -->
 <div id="question-3" class="hidden bg-white h-screen overflow-hidden flex flex-col">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex-1 flex flex-col">
@@ -245,17 +221,14 @@
         <div id="progress-3" class="h-2 bg-red-600 rounded-full transition-all duration-700" style="width: 60%;"></div>
       </div>
     </div>
-
     <div class="flex-1 flex flex-col justify-start mt-6 overflow-hidden">
       <div class="mx-auto max-w-2xl lg:text-center">
         <h2 class="anim-element anim-down text-base/7 font-semibold text-red-600">Terceira pergunta</h2>
         <p class="anim-element anim-up mt-2 text-3xl sm:text-4xl font-semibold tracking-tight text-pretty text-gray-900">Qual é o seu banco de dados preferido?</p>
       </div>
-
       <div class="md:hidden flex items-center justify-center overflow-hidden mt-4">
           <img src="./undraw_through-the-park_xcqx.png" alt="" class="anim-element anim-scale w-4/5 h-36 object-contain">
       </div>
-
       <div class="mt-4 max-w-2xl sm:mt-8 lg:mt-12 lg:max-w-4xl mx-auto w-full">
         <dl class="grid max-w-xl grid-cols-1 gap-x-6 gap-y-3 lg:max-w-none lg:grid-cols-2 lg:gap-y-10">
           <div class="option flex items-center gap-2 bg-red-100 border border-red-300 p-2 rounded-full cursor-pointer anim-element anim-left">
@@ -293,7 +266,6 @@
         </dl>
       </div>
     </div>
-
     <div class="pb-8 sm:pb-12 lg:pb-16 lg:max-w-4xl flex items-end gap-2 md:justify-end mx-auto w-full">
         <button id="next-btn-3" class="shadow-xl bg-red-500 rounded-full text-white py-3 px-8 w-full md:w-auto text-center flex items-center justify-center gap-2 font-semibold opacity-50 cursor-not-allowed pointer-events-none transition-all">
             <span>Próxima pergunta</span>
@@ -304,7 +276,6 @@
     </div>
   </div>
 </div>
-
 <!-- QUESTION 4 -->
 <div id="question-4" class="hidden bg-white h-screen overflow-hidden flex flex-col">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex-1 flex flex-col">
@@ -313,17 +284,14 @@
         <div id="progress-4" class="h-2 bg-red-600 rounded-full transition-all duration-700" style="width: 80%;"></div>
       </div>
     </div>
-
     <div class="flex-1 flex flex-col justify-start mt-6 overflow-hidden">
       <div class="mx-auto max-w-2xl lg:text-center">
         <h2 class="anim-element anim-down text-base/7 font-semibold text-red-600">Quarta pergunta</h2>
         <p class="anim-element anim-up mt-2 text-3xl sm:text-4xl font-semibold tracking-tight text-pretty text-gray-900">Qual método de autenticação você prefere?</p>
       </div>
-
       <div class="md:hidden flex items-center justify-center overflow-hidden mt-4">
           <img src="./undraw_through-the-park_xcqx.png" alt="" class="anim-element anim-scale w-4/5 h-36 object-contain">
       </div>
-
       <div class="mt-4 max-w-2xl sm:mt-8 lg:mt-12 lg:max-w-4xl mx-auto w-full">
         <dl class="grid max-w-xl grid-cols-1 gap-x-6 gap-y-3 lg:max-w-none lg:grid-cols-2 lg:gap-y-10">
           <div class="option flex items-center gap-2 bg-red-100 border border-red-300 p-2 rounded-full cursor-pointer anim-element anim-left">
@@ -361,7 +329,6 @@
         </dl>
       </div>
     </div>
-
     <div class="pb-8 sm:pb-12 lg:pb-16 lg:max-w-4xl flex items-end gap-2 md:justify-end mx-auto w-full">
         <button id="next-btn-4" class="shadow-xl bg-red-500 rounded-full text-white py-3 px-8 w-full md:w-auto text-center flex items-center justify-center gap-2 font-semibold opacity-50 cursor-not-allowed pointer-events-none transition-all">
             <span>Próxima pergunta</span>
@@ -372,7 +339,6 @@
     </div>
   </div>
 </div>
-
 <!-- QUESTION 5 -->
 <div id="question-5" class="hidden bg-white h-screen overflow-hidden flex flex-col">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex-1 flex flex-col">
@@ -381,17 +347,14 @@
         <div id="progress-5" class="h-2 bg-red-600 rounded-full transition-all duration-700" style="width: 100%;"></div>
       </div>
     </div>
-
     <div class="flex-1 flex flex-col justify-start mt-6 overflow-hidden">
       <div class="mx-auto max-w-2xl lg:text-center">
         <h2 class="anim-element anim-down text-base/7 font-semibold text-red-600">Quinta pergunta</h2>
         <p class="anim-element anim-up mt-2 text-3xl sm:text-4xl font-semibold tracking-tight text-pretty text-gray-900">Qual provedor de nuvem você utiliza?</p>
       </div>
-
       <div class="md:hidden flex items-center justify-center overflow-hidden mt-4">
           <img src="./undraw_through-the-park_xcqx.png" alt="" class="anim-element anim-scale w-4/5 h-36 object-contain">
       </div>
-
       <div class="mt-4 max-w-2xl sm:mt-8 lg:mt-12 lg:max-w-4xl mx-auto w-full">
         <dl class="grid max-w-xl grid-cols-1 gap-x-6 gap-y-3 lg:max-w-none lg:grid-cols-2 lg:gap-y-10">
           <div class="option flex items-center gap-2 bg-red-100 border border-red-300 p-2 rounded-full cursor-pointer anim-element anim-left">
@@ -429,7 +392,6 @@
         </dl>
       </div>
     </div>
-
     <div class="pb-8 sm:pb-12 lg:pb-16 lg:max-w-4xl flex items-end gap-2 md:justify-end mx-auto w-full">
         <button id="next-btn-5" class="shadow-xl bg-red-500 rounded-full text-white py-3 px-8 w-full md:w-auto text-center flex items-center justify-center gap-2 font-semibold opacity-50 cursor-not-allowed pointer-events-none transition-all">
             <span>Ver resultado</span>
@@ -440,7 +402,6 @@
     </div>
   </div>
 </div>
-
 <!-- RESULT PAGE -->
 <div id="results-page" class="hidden bg-white h-screen overflow-hidden flex flex-col">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex-1 flex flex-col">
@@ -450,7 +411,6 @@
       </div>
       <p class="text-center text-red-600 font-semibold mt-2 text-sm">100% CONCLUÍDO</p>
     </div>
-
     <div class="flex-1 flex flex-col items-center justify-center text-center px-4">
       <div class="anim-element anim-scale mb-8">
         <div class="inline-flex items-center justify-center w-24 h-24 bg-red-100 text-red-600 rounded-3xl mb-6">
@@ -459,16 +419,15 @@
           </svg>
         </div>
       </div>
-      
+     
       <h1 class="anim-element anim-up text-4xl sm:text-5xl font-semibold tracking-tight text-gray-900">Parabéns!</h1>
       <p class="anim-element anim-up mt-3 text-xl sm:text-2xl font-medium text-red-600">Você completou o quiz com sucesso</p>
-      
+     
       <div class="anim-element anim-scale mt-10 bg-white border border-red-200 shadow-2xl rounded-3xl px-8 py-8 max-w-xs w-full">
         <div class="text-7xl font-bold text-red-600">5/5</div>
         <p class="text-gray-500 mt-2">Respostas selecionadas</p>
         <p class="mt-8 text-base text-balance text-gray-600">Seu negócio está pronto para crescer com as melhores práticas de deploy, escalabilidade e infraestrutura.</p>
       </div>
-
       <button id="restart-btn" class="anim-element anim-scale mt-12 rounded-full bg-red-600 px-10 py-4 text-white font-semibold text-xl shadow-2xl hover:bg-red-500 flex items-center gap-3 mx-auto">
         Reiniciar Quiz
         <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -478,27 +437,24 @@
     </div>
   </div>
 </div>
-
 <script>
     // Inicializa Tailwind
     document.addEventListener('DOMContentLoaded', () => {
         if (window.tailwindBrowser) window.tailwindBrowser.init()
     })
-
     // Função que dispara animações diferentes com stagger
     function triggerAnimation(pageId) {
         const page = document.getElementById(pageId)
         if (!page) return
-        
+       
         const elements = page.querySelectorAll('.anim-element')
-        
+       
         elements.forEach((el, index) => {
             setTimeout(() => {
                 el.classList.remove('opacity-0')
             }, index * 70)
         })
     }
-
     // Lógica do quiz
     document.addEventListener('DOMContentLoaded', () => {
         const landing = document.getElementById('landing-page')
@@ -508,13 +464,11 @@
         const q4 = document.getElementById('question-4')
         const q5 = document.getElementById('question-5')
         const results = document.getElementById('results-page')
-
         const startBtn = document.getElementById('start-btn')
-
         // Função genérica para selecionar opção (com mudança dinâmica de cor)
         function setupQuestion(questionEl, nextBtn) {
             const options = questionEl.querySelectorAll('.option')
-            
+           
             options.forEach(option => {
                 option.addEventListener('click', () => {
                     // Remove seleção de todas
@@ -522,7 +476,7 @@
                         opt.classList.remove('bg-red-600', 'border-red-600', 'text-white')
                         const iconContainer = opt.querySelector('.icon-container')
                         const svg = opt.querySelector('.option-icon')
-                        
+                       
                         if (iconContainer) {
                             iconContainer.classList.remove('bg-white')
                             iconContainer.classList.add('bg-red-600')
@@ -532,12 +486,11 @@
                             svg.classList.add('text-white')
                         }
                     })
-
                     // Seleciona a clicada (mudança dinâmica)
                     option.classList.add('bg-red-600', 'border-red-600', 'text-white')
                     const iconContainer = option.querySelector('.icon-container')
                     const svg = option.querySelector('.option-icon')
-                    
+                   
                     if (iconContainer) {
                         iconContainer.classList.remove('bg-red-600')
                         iconContainer.classList.add('bg-white')
@@ -546,64 +499,54 @@
                         svg.classList.remove('text-white')
                         svg.classList.add('text-red-600')
                     }
-
                     // Ativa botão de próxima
                     nextBtn.classList.remove('opacity-50', 'cursor-not-allowed', 'pointer-events-none')
                     nextBtn.classList.add('hover:bg-red-600', 'active:scale-95')
                 })
             })
         }
-
         // Configura cada pergunta
         setupQuestion(q1, document.getElementById('next-btn-1'))
         setupQuestion(q2, document.getElementById('next-btn-2'))
         setupQuestion(q3, document.getElementById('next-btn-3'))
         setupQuestion(q4, document.getElementById('next-btn-4'))
         setupQuestion(q5, document.getElementById('next-btn-5'))
-
         // Navegação entre telas
         document.getElementById('next-btn-1').addEventListener('click', () => {
             q1.classList.add('hidden')
             q2.classList.remove('hidden')
             triggerAnimation('question-2')
         })
-
         document.getElementById('next-btn-2').addEventListener('click', () => {
             q2.classList.add('hidden')
             q3.classList.remove('hidden')
             triggerAnimation('question-3')
         })
-
         document.getElementById('next-btn-3').addEventListener('click', () => {
             q3.classList.add('hidden')
             q4.classList.remove('hidden')
             triggerAnimation('question-4')
         })
-
         document.getElementById('next-btn-4').addEventListener('click', () => {
             q4.classList.add('hidden')
             q5.classList.remove('hidden')
             triggerAnimation('question-5')
         })
-
         document.getElementById('next-btn-5').addEventListener('click', () => {
             q5.classList.add('hidden')
             results.classList.remove('hidden')
             triggerAnimation('results-page')
         })
-
         // Botão Começar
         startBtn.addEventListener('click', () => {
             landing.classList.add('hidden')
             q1.classList.remove('hidden')
             triggerAnimation('question-1')
         })
-
         // Botão Reiniciar
         document.getElementById('restart-btn').addEventListener('click', () => {
             location.reload()
         })
-
         // Animação inicial da landing
         triggerAnimation('landing-page')
     })
