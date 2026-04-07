@@ -14,151 +14,297 @@
     </style>
 </head>
 <body>
-    <section id="start" class="h-screen grid grid-rows-5">
-        <div class="flex flex-col bg-pink-300 row-span-2 bg-gradient-to-b overflow-hidden relative p-6">
-            <header class="">
-                <h1 class="font-bold text-black font-bold">HeyPretty.</h1>
-            </header>
-            <div class="overflow-hidden flex items-center justify-center">
-                <img src="./undraw_different-love_58hd-removebg-preview.png" alt="" srcset="" class="h-[95%] object-cover object-center">
-            </div>
+<!-- start quiz page -->
+<div id="landing-page" class="bg-white">
+  <div class="relative isolate px-6 pt-14 lg:px-8">
+    <div aria-hidden="true" class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
+      <div style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" class="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-red-200 to-red-500 opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75"></div>
+    </div>
+
+    <div class="flex flex-col md:flex-row items-center">
+        <div class="md:hidden overflow-hidden h-[15rem]">
+            <img src="./undraw_love_9mug-removebg-preview.png" alt="" class="h-full w-full object-contain object-center anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">
         </div>
-        <div class="row-span-3 p-6 flex flex-col gap-6 justify-between">
-            <div class="flex flex-col gap-6">
-                <h1 class="text-3xl font-semibold text-center">Vamos decidir o que vamos fazer?</h1>
-                <h3 class="text-gray-600 text-center">Preencha esse formulário rápido para descobrirmos a melhor atividade pra fazermos juntos</h3>
-            </div>
-            <div class="flex flex-col gap-7 items-center justify-between">
-                <a href="" class="cursor-pointer font-semibold bg-pink-300 py-3 w-full flex items-center justify-center text-center rounded-full border-t border-l border-r-4 border-b-4 shadow-xl max-w-2xl">
+        <div class="mx-auto max-w-2xl py-12 md:py-32 sm:py-48 lg:py-56">
+          <div class="text-start">
+            <h1 class="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">Data to enrich your online business</h1>
+            <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8 anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.</p>
+            <div class="mt-10 flex items-center justify-start gap-x-6 anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">
+                <button id="start-btn" class="rounded-full bg-red-600 md:px-8 py-3 text-center w-full md:w-auto font-semibold text-white shadow-xl hover:bg-red-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 flex items-center justify-center gap-2">
                     <span>Começar</span>
-                </a>
-                <div class="flex w-full justify-between">
-                    <img src="./swirly-scribbled-arrow.png" alt="" srcset="" class="size-20">
-                    <img src="./fireworks.gif" alt="" srcset="" class="size-25">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="first" class="h-screen min-h-screeen max-h-full p-6 bg-gradient-to-b from-pink-200 via-pink-200 to-pink-100 flex flex-col justify-between">
-        <div class="flex flex-col gap-6">
-            <header class="flex items-center justify-between">
-                <a href="" class="text-gray-800 flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                    <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                     </svg>
-                    <span>Voltar</span>
-                </a>
-            </header>
-            <div class="flex flex-col">
-                <span class="text-gray-700 text-center">Primeira pergunta</span>
-                <h1 class="text-3xl text-black font-semibold text-center">O que mais te alegraria hoje?</h1>
+                </button>
             </div>
-            <div class="grid grid-cols-2 gap-4">
-                <div class="p-2 bg-white rounded-xl flex flex-col justify-center items-center text-center gap-2 shadow-xl border-b-4 border-r-4 border-l border-t">
-                    <div class="overflow-hidden h-[60%]">
-                        <img src="./undraw_special-event_hv54.png" alt="" class="h-full h-full object-center object-cover">
-                    </div>
-                    <span class="text-xl font-semibold text-gray-900">Comer algo</span>
-                </div>
-                <div class="p-2 bg-white rounded-xl flex flex-col justify-center items-center text-center gap-2 shadow-xl border-b-4 border-r-4 border-l border-t">
-                    <div class="overflow-hidden h-[60%]">
-                        <img src="./undraw_special-event_hv54.png" alt="" class="h-full h-full object-center object-cover">
-                    </div>
-                    <span class="text-xl font-semibold text-gray-900">Comer algo</span>
-                </div>
-                <div class="p-2 bg-white rounded-xl flex flex-col justify-center items-center text-center gap-2 shadow-xl border-b-4 border-r-4 border-l border-t">
-                    <div class="overflow-hidden h-[60%]">
-                        <img src="./undraw_special-event_hv54.png" alt="" class="h-full h-full object-center object-cover">
-                    </div>
-                    <span class="text-xl font-semibold text-gray-900">Comer algo</span>
-                </div>
-                <div class="p-2 bg-white rounded-xl flex flex-col justify-center items-center text-center gap-2 shadow-xl border-b-4 border-r-4 border-l border-t">
-                    <div class="overflow-hidden h-[60%]">
-                        <img src="./undraw_special-event_hv54.png" alt="" class="h-full h-full object-center object-cover">
-                    </div>
-                    <span class="text-xl font-semibold text-gray-900">Comer algo</span>
-                </div>
-            </div>
+          </div>
         </div>
 
-        <!-- quando uma opção nao estiver selecionada ele fica assim mas sem o hidden-->
-        <a href="" class="hidden bg-black text-white gap-2 py-3 w-full rounded-full text-center items-center flex justify-center opacity-[0.3]">
-            <span class="">Próxima pergunta</span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-            </svg>
-        </a>
-
-        <!-- quando uma opção estiver selecionada -->
-        <a href="" class="bg-black text-white gap-2 py-3 w-full rounded-full text-center items-center flex justify-center">
-            <span class="">Próxima pergunta</span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-            </svg>
-        </a>
-
-    </section>
-
-    <section id="second" class="h-screen min-h-screeen max-h-full p-6 flex flex-col justify-between">
-        <div class="flex flex-col gap-6">
-            <header class="flex items-center justify-between">
-                <a href="" class="text-gray-800 flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
-                    </svg>
-                    <span>Voltar</span>
-                </a>
-            </header>
-            <div class="flex flex-col">
-                <span class="text-gray-700 text-center">Segunda pergunta</span>
-                <h1 class="text-3xl text-black font-semibold text-center">O que mais te alegraria hoje?</h1>
-            </div>
-           <div class="grid grid-cols-2 gap-4">
-                <div class="p-2 bg-white rounded-full flex items-center gap-2 border-2 border-gray-300 hover:border-gray-400 transition-colors">
-                    <div class="w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-semibold text-gray-700 shadow-inner">
-                        1
-                    </div>
-                    <span class="text-gray-700">Comer algo</span>
-                </div>
-                <div class="p-2 bg-white rounded-full flex items-center gap-2 border-2 border-gray-300 hover:border-gray-400 transition-colors">
-                    <div class="w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-semibold text-gray-700 shadow-inner">
-                        2
-                    </div>
-                    <span class="text-gray-700">Comer algo</span>
-                </div>
-                <div class="p-2 bg-white rounded-full flex items-center gap-2 border-2 border-gray-300 hover:border-gray-400 transition-colors">
-                    <div class="w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-semibold text-gray-700 shadow-inner">
-                        3
-                    </div>
-                    <span class="text-gray-700">Comer algo</span>
-                </div>
-                <div class="p-2 bg-white rounded-full flex items-center gap-2 border-2 border-gray-300 hover:border-gray-400 transition-colors">
-                    <div class="w-7 h-7 bg-gray-200 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-semibold text-gray-700 shadow-inner">
-                        4
-                    </div>
-                    <span class="text-gray-700">Comer algo</span>
-                </div>
-
-            </div>
+        <div class="hidden md:flex mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+            <img src="./undraw_love_9mug-removebg-preview.png" alt="" class="anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">
         </div>
+    </div>
 
-        <!-- quando uma opção nao estiver selecionada ele fica assim mas sem o hidden-->
-        <a href="" class="hidden bg-black text-white gap-2 py-3 w-full rounded-full text-center items-center flex justify-center opacity-[0.3]">
-            <span class="">Próxima pergunta</span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+    <div aria-hidden="true" class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
+      <div style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" class="relative left-[calc(50%+3rem)] aspect-1155/678 w-144.5 -translate-x-1/2 bg-linear-to-tr from-red-500 to-red-500 opacity-30 sm:left-[calc(50%+36rem)] sm:w-288.75"></div>
+    </div>
+  </div>
+</div>
+
+<!-- first questions page -->
+<div id="question-1" class="hidden bg-white py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    
+    <!-- Barra de progresso minimalista vermelha -->
+    <div class="mb-8">
+      <div class="h-2 bg-red-100 rounded-full w-full overflow-hidden">
+        <div class="h-2 bg-red-600 rounded-full transition-all duration-500" style="width: 50%;"></div>
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-2xl lg:text-center">
+      <h2 class="text-base/7 font-semibold text-red-600 anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">Primeira pergunta</h2>
+      <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">Everything you need to deploy your app?</p>
+    </div>
+    <div class="md:hidden flex items-center justify-center overflow-hidden anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">
+        <img src="./undraw_through-the-park_xcqx.png" alt="" class="w-full h-full object-contain object-center">
+    </div>
+
+    <div class="mx-auto mt-4 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+      <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-3 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+            <div onclick="/* JS will handle */" class="option flex items-center gap-2 bg-red-100 border border-red-300 p-3 rounded-full cursor-pointer anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">
+                <div class="icon-container flex size-10 items-center justify-center rounded-full bg-red-600">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 text-white">
+                    <path d="M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="font-medium">Push to deploy</span>
+            </div>
+            <div onclick="/* JS will handle */" class="option flex items-center gap-2 bg-red-100 border border-red-300 p-3 rounded-full cursor-pointer anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">
+                <div class="icon-container flex size-10 items-center justify-center rounded-full bg-red-600">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 text-white">
+                    <path d="M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="font-medium">Push to deploy</span>
+            </div>
+            <div onclick="/* JS will handle */" class="option flex items-center gap-2 bg-red-100 border border-red-300 p-3 rounded-full cursor-pointer anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">
+                <div class="icon-container flex size-10 items-center justify-center rounded-full bg-red-600">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 text-white">
+                    <path d="M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="font-medium">Push to deploy</span>
+            </div>
+            <div onclick="/* JS will handle */" class="option flex items-center gap-2 bg-red-100 border border-red-300 p-3 rounded-full cursor-pointer anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">
+                <div class="icon-container flex size-10 items-center justify-center rounded-full bg-red-600">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 text-white">
+                    <path d="M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="font-medium">Push to deploy</span>
+            </div>
+      </dl>
+    </div>
+
+    <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl flex items-end gap-3 md:justify-end">
+        <button id="next-btn-1" class="shadow-xl bg-red-500 rounded-full text-white py-3 px-8 w-full md:w-auto text-center flex items-center justify-center gap-2 font-semibold opacity-50 cursor-not-allowed pointer-events-none">
+            <span>Próxima pergunta</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+            <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
             </svg>
-        </a>
+        </button>
+    </div>
+  </div>
+</div>
 
-        <!-- quando uma opção estiver selecionada -->
-        <a href="" class="bg-black text-white gap-2 py-3 w-full rounded-full text-center items-center flex justify-center">
-            <span class="">Próxima pergunta</span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+<!-- second questions page -->
+<div id="question-2" class="hidden bg-white py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    
+    <!-- Barra de progresso minimalista vermelha -->
+    <div class="mb-8">
+      <div class="h-2 bg-red-100 rounded-full w-full overflow-hidden">
+        <div class="h-2 bg-red-600 rounded-full transition-all duration-500" style="width: 100%;"></div>
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-2xl lg:text-center">
+      <h2 class="text-base/7 font-semibold text-red-600 anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">Segunda pergunta</h2>
+      <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">How do you scale your infrastructure?</p>
+    </div>
+    <div class="md:hidden flex items-center justify-center overflow-hidden anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">
+        <img src="./undraw_through-the-park_xcqx.png" alt="" class="w-full h-full object-contain object-center">
+    </div>
+
+    <div class="mx-auto mt-4 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+      <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-3 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+            <div onclick="/* JS will handle */" class="option flex items-center gap-2 bg-red-100 border border-red-300 p-3 rounded-full cursor-pointer anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">
+                <div class="icon-container flex size-10 items-center justify-center rounded-full bg-red-600">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 text-white">
+                    <path d="M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="font-medium">Auto-scaling groups</span>
+            </div>
+            <div onclick="/* JS will handle */" class="option flex items-center gap-2 bg-red-100 border border-red-300 p-3 rounded-full cursor-pointer anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">
+                <div class="icon-container flex size-10 items-center justify-center rounded-full bg-red-600">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 text-white">
+                    <path d="M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="font-medium">Load balancers</span>
+            </div>
+            <div onclick="/* JS will handle */" class="option flex items-center gap-2 bg-red-100 border border-red-300 p-3 rounded-full cursor-pointer anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">
+                <div class="icon-container flex size-10 items-center justify-center rounded-full bg-red-600">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 text-white">
+                    <path d="M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="font-medium">Serverless architecture</span>
+            </div>
+            <div onclick="/* JS will handle */" class="option flex items-center gap-2 bg-red-100 border border-red-300 p-3 rounded-full cursor-pointer anim-element opacity-0 translate-y-8 transition-all duration-700 ease-out">
+                <div class="icon-container flex size-10 items-center justify-center rounded-full bg-red-600">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 text-white">
+                    <path d="M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="font-medium">Container orchestration</span>
+            </div>
+      </dl>
+    </div>
+
+    <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl flex items-end gap-3 md:justify-end">
+        <button id="next-btn-2" class="shadow-xl bg-red-500 rounded-full text-white py-3 px-8 w-full md:w-auto text-center flex items-center justify-center gap-2 font-semibold opacity-50 cursor-not-allowed pointer-events-none">
+            <span>Próxima pergunta</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+            <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
             </svg>
-        </a>
+        </button>
+    </div>
+  </div>
+</div>
 
-    </section>
+<script>
+    // Inicializa Tailwind (necessário para o CDN)
+    document.addEventListener('DOMContentLoaded', () => {
+        return window.tailwindBrowser && window.tailwindBrowser.init()
+    })
+
+    // Função para animar elementos da página (fade + slide usando apenas Tailwind)
+    function triggerAnimation(page) {
+        const elements = page.querySelectorAll('.anim-element')
+        elements.forEach((el, index) => {
+            // Stagger suave
+            setTimeout(() => {
+                el.classList.remove('opacity-0', 'translate-y-8')
+                el.classList.add('opacity-100', 'translate-y-0')
+            }, index * 60)
+        })
+    }
+
+    // Lógica principal do quiz
+    document.addEventListener('DOMContentLoaded', () => {
+        const landing = document.getElementById('landing-page')
+        const question1 = document.getElementById('question-1')
+        const question2 = document.getElementById('question-2')
+
+        const startBtn = document.getElementById('start-btn')
+
+        // Question 1
+        const options1 = question1.querySelectorAll('.option')
+        const nextBtn1 = document.getElementById('next-btn-1')
+        let selected1 = false
+
+        options1.forEach(option => {
+            option.addEventListener('click', () => {
+                // Remove seleção anterior
+                options1.forEach(opt => {
+                    opt.classList.remove('bg-red-600', 'border-red-600', 'text-white')
+                    const icon = opt.querySelector('.icon-container')
+                    if (icon) {
+                        icon.classList.remove('!bg-white', '!text-red-600')
+                        icon.classList.add('bg-red-600', 'text-white')
+                    }
+                })
+
+                // Seleciona a atual
+                option.classList.add('bg-red-600', 'border-red-600', 'text-white')
+                const icon = option.querySelector('.icon-container')
+                if (icon) {
+                    icon.classList.add('!bg-white', '!text-red-600')
+                    icon.classList.remove('bg-red-600', 'text-white')
+                }
+
+                selected1 = true
+
+                // Ativa o botão
+                nextBtn1.classList.remove('opacity-50', 'cursor-not-allowed', 'pointer-events-none')
+                nextBtn1.classList.add('hover:bg-red-600')
+            })
+        })
+
+        nextBtn1.addEventListener('click', () => {
+            if (selected1) {
+                question1.classList.add('hidden')
+                question2.classList.remove('hidden')
+                triggerAnimation(question2)
+            }
+        })
+
+        // Question 2
+        const options2 = question2.querySelectorAll('.option')
+        const nextBtn2 = document.getElementById('next-btn-2')
+        let selected2 = false
+
+        options2.forEach(option => {
+            option.addEventListener('click', () => {
+                // Remove seleção anterior
+                options2.forEach(opt => {
+                    opt.classList.remove('bg-red-600', 'border-red-600', 'text-white')
+                    const icon = opt.querySelector('.icon-container')
+                    if (icon) {
+                        icon.classList.remove('!bg-white', '!text-red-600')
+                        icon.classList.add('bg-red-600', 'text-white')
+                    }
+                })
+
+                // Seleciona a atual
+                option.classList.add('bg-red-600', 'border-red-600', 'text-white')
+                const icon = option.querySelector('.icon-container')
+                if (icon) {
+                    icon.classList.add('!bg-white', '!text-red-600')
+                    icon.classList.remove('bg-red-600', 'text-white')
+                }
+
+                selected2 = true
+
+                // Ativa o botão
+                nextBtn2.classList.remove('opacity-50', 'cursor-not-allowed', 'pointer-events-none')
+                nextBtn2.classList.add('hover:bg-red-600')
+            })
+        })
+
+        nextBtn2.addEventListener('click', () => {
+            if (selected2) {
+                question2.classList.add('hidden')
+                // Fim do quiz (pode ser expandido futuramente)
+                alert('🎉 Quiz finalizado! Obrigado por participar.')
+                // Opcional: voltar para o início
+                // setTimeout(() => { location.reload() }, 1500)
+            }
+        })
+
+        // Botão Começar
+        startBtn.addEventListener('click', () => {
+            landing.classList.add('hidden')
+            question1.classList.remove('hidden')
+            triggerAnimation(question1)
+        })
+
+        // Animação inicial da landing page
+        triggerAnimation(landing)
+    })
+</script>
 </body>
 </html>
